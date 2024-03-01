@@ -1,6 +1,9 @@
 import React, { useState } from "react"
-import { Layout } from "antd"
+import { Button, Layout, Menu } from "antd"
 import Siderbar from "./components/Sidebar";
+import {MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons'
+
+import './App.css'
 
 const {Sider, Header, Content} = Layout;
 
@@ -8,13 +11,27 @@ const App = () => {
   const [collapsed, collapsible] = useState(false)
   return <Layout>
 
-    <Sider theme="light" className='sider' trigger={null} collapsible collapsed={collapsed}>
+    <Sider 
+
+    theme="light"
+    className='sider' 
+    trigger={null} 
+    collapsible 
+    collapsed={collapsed}
+    
+    >
       <Siderbar /> 
 
+      <Button 
+      type="text" 
+      icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined /> }
+      onClick={ () => setCollapsed(!collapsed)}
+      className="triger-btn"
+      />
     </Sider>
     <Layout>
-      <Header></Header>
-      <Content></Content>
+      <Header className="header"></Header>
+      <Content className="content"></Content>
     </Layout>
   </Layout>
 
