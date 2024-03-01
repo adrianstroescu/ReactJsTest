@@ -25,7 +25,7 @@ const App = () => {
       <Button 
       type="text" 
       icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined /> }
-      onClick={ () => setCollapsed(!collapsed)}
+      onClick={ () => collapsible(!collapsed)}
       className="triger-btn"
       />
     </Sider>
