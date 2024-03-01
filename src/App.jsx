@@ -1,9 +1,13 @@
 import React, { useState } from "react"
 import { Button, Layout, Menu } from "antd"
+import {MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons';
+
 import Siderbar from "./components/Sidebar";
-import {MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons'
+import CustomHeader from "./components/Header";
+
 
 import './App.css'
+
 
 const {Sider, Header, Content} = Layout;
 
@@ -30,7 +34,9 @@ const App = () => {
       />
     </Sider>
     <Layout>
-      <Header className="header"></Header>
+      <Header className="header">
+        <CustomHeader />
+      </Header>
       <Content className="content"></Content>
     </Layout>
   </Layout>
