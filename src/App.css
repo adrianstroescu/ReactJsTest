@@ -46,3 +46,10 @@
   background-color: #4f6f52  !important;
   color: #fff !important;
 }
+
+
+.header-icon {
+  background: #d2e3c8;
+  padding: 8px;
+  border-radius: 4px;
+}
