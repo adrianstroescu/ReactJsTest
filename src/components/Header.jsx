@@ -2,6 +2,7 @@ import { Flex, Typography } from 'antd'
 import React from 'react'
 import Search from 'antd/es/input/Search'
 
+
 const CustomHeader = () => {
   return (
     <Flex>
@@ -16,5 +17,4 @@ const CustomHeader = () => {
     </Flex>
   )
 }
-
 export default CustomHeader
