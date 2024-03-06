@@ -1,8 +1,15 @@
+import { Flex } from 'antd';
 import React from 'react'
 
 const MainContent = () => {
   return (
-    <div>MainContent</div>
+    <div style={{flex: 1}}>
+        <Flex>
+
+        </Flex>
+        
+
+    </div>
   )
 }
 

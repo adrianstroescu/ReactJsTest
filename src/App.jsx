@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Button, Layout, Menu } from "antd"
+import { Button, Layout, Menu, Flex } from "antd"
 import {MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons';
 
 import Siderbar from "./components/Sidebar";
@@ -8,6 +8,8 @@ import CustomHeader from "./components/Header";
 
 
 import './App.css'
+import MainContent from "./components/MainContent";
+import SideContent from "./components/SideContent";
 
 
 const {Sider, Header, Content} = Layout;
@@ -39,9 +41,10 @@ const App = () => {
         <CustomHeader />
       </Header>
       <Content className="content">
-        <Flex>
+        <Flex gap='large'>
+        <MainContent />
+        <SideContent />
 
-          
         </Flex>
 
       </Content>
