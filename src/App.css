@@ -115,5 +115,6 @@ flex: 1;
   height: 50px;
 }
 .card {
-  background-image: linear-gradient(to bottom, #4c7f79,#87e8de);
+  background-image: linear-gradient(to bottom, #47623b,#f0f0f0);
+  color: #fff;
 }

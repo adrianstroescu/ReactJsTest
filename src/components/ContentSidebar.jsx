@@ -14,8 +14,8 @@ function ContentSidebar() {
         style={{ 
             position: 'absolute', 
             bottom: -50,
-            left: 120, 
-            height: '300px',
+            left: 150, 
+            height: '200px',
             width: 'auto'
             }}></Image>
     </Card>
