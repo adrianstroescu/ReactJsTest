@@ -38,7 +38,13 @@ const App = () => {
       <Header className="header">
         <CustomHeader />
       </Header>
-      <Content className="content"></Content>
+      <Content className="content">
+        <Flex>
+
+          
+        </Flex>
+
+      </Content>
     </Layout>
   </Layout>
 
