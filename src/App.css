@@ -70,6 +70,29 @@
 .ant-bnt:hover {
   color: #4f6f52 !important;
   border-color:#4f6f52 !important;
+}
+.ant-btn-primary {
+  background-color: #4f6f52 !important;
+}
+.ant-btn-primary:hover {
+  background-color: #4f6f52 !important;
+  color: #fff !important;
+}
+.primary--color {
+  color: #4f6f52 !important;
+}
 
+.primary--light--color {
+  color: #739072 !important;
+}
+.secondary--color {
+  color: #86a789 !important;
+}
+.light--color {
+  color: #d2e3c8 !important;
+}
 
+.grey--color {
+  color: rgb(182,181,181) !important;
+ 
 }

@@ -11,7 +11,7 @@ const Sidebar = () => {
     <Flex align='center' justify='center'>
         <div className='logo' >
         <FaLeaf />
-        <span className='logo-text'>LEAF</span>
+        <span className='logo-text'>leaf</span>
         </div>
     </Flex>
     <Menu 
