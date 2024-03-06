@@ -104,6 +104,16 @@ height: 250px;
 text-align: center;
 }
 
-.top-seller {
+.top-seller,
+.featured-seller {
+flex: 1;
 
+}
+
+.divider {
+  border: 1px solid green;
+  height: 50px;
+}
+.card {
+  background-image: linear-gradient(to bottom, #4c7f79,#87e8de);
 }
