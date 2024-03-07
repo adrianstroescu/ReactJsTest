@@ -11,8 +11,12 @@ const MainContent = () => {
             <Banner />
             <ProductsLists />
             <SellerLists />
-        </Flex>
+</Flex>
     </div>
+
+
+
+
   )
 }
 
